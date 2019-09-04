@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto")url("https://fonts.googleapis.com/css?family=Roboto+Slab")
+
+body {background-color: white;
+
+}
+
+h1, h2 {color:black;
+	font-family: "Roboto", sans-serif;
+}
+
+p {color: black;
+	font-family: "Roboto Slab", serif;
+	font-size: 150%;
+
+}
