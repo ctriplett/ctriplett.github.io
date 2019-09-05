@@ -1,15 +1,22 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto")url("https://fonts.googleapis.com/css?family=Crimson+Pro");
 
-body {background-color: whitesmoke;
-
+body {
+	background-color: whitesmoke;
+	margin-top: 50px;
+	margin-right: 75px;
+	margin-bottom: 50px;
+	margin-left: 75px;
+	
 }
 
-h1, h2 {color: black;
+h1, h2 {
+	color: black;
 	font-family: "Roboto", sans-serif;
 	font-style: bold
 }
 
-p {color: black;
+p {
+	color: black;
 	font-family: "Crimson Pro", serif;
 	font-size: 120%;
 
