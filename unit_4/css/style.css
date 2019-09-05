@@ -1,17 +1,17 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto")url("https://fonts.googleapis.com/css?family=Crimson+Pro")url("https://fonts.googleapis.com/css?family=Libre+Baskerville");
+@import url("https://fonts.googleapis.com/css?family=Roboto")url("https://fonts.googleapis.com/css?family=Libre+Baskerville")url("https://fonts.googleapis.com/css?family=Bitter");
 
 body {
 	background-color: whitesmoke;
 	margin-top: 50px;
-	margin-right: 75px;
+	margin-right: 200px;
 	margin-bottom: 50px;
-	margin-left: 75px;
+	margin-left: 200px;
 
 }
 
 .logo {
-	color: black;
-	font-family: "Libre Baskerville", serif;
+	color: red;
+	font-family: "Bitter", serif;
 	font-size: 500%;
 	font-style: bold;
 
@@ -25,28 +25,33 @@ h1, h2 {
 
 p {
 	color: black;
-	font-family: "Crimson Pro", serif;
+	font-family: "Libre Baskerville", serif;
 	font-size: 150%;
+	width: 100%;
 
 }
-}
+
 .tagline{
 	color: black;
 	font-family: "Roboto", sans-serif;
-	font-size: 1em;
+	font-size: 2em;
 	font-style: italic;
+	margin-bottom: 1em;
 }
 .nav {
 	color: black;
 	font-family: "roboto", sans-serif;
-	font-size: 1em;
+	font-size: 2em;
 	font-style: bold;
+	margin-bottom: 1em;
 }
 
 .search-box {
-	width: 800px;
+	width: 80%;
 	display: block;
-	margin: 70px;
+	margin: 20px;
+	margin-top: 2em;
+	margin-bottom: 4em;
   }
   
   input#search-bar{
