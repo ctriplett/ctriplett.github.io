@@ -42,10 +42,13 @@ p {
 	font-size: 1em;
 	font-style: bold;
 
-.search-container {
-	width: 800px;
+}
+
+.search-box {
+	width: 600px;
 	display: block;
-	margin: 0 auto;
+	float: left;
+	margin: 125px;
   }
   
   input#search-bar{
