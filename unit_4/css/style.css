@@ -29,19 +29,18 @@ p {
 	font-size: 1em;
 
 }
-
-.nav {
-	color: black;
-	font-family: "roboto", sans-serif;
-	font-size: 1em;
-	font-style: bold;
 }
-.slogan{
+.tagline{
 	color: black;
 	font-family: "Roboto", sans-serif;
 	font-size: 1em;
 	font-style: italic;
 }
+.nav {
+	color: black;
+	font-family: "roboto", sans-serif;
+	font-size: 1em;
+	font-style: bold;
 
 .search-container{
 	width: 800px;
