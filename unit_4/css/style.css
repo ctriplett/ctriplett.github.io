@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto")url("https://fonts.googleapis.com/css?family=Roboto+Slab")
+@import url("https://fonts.googleapis.com/css?family=Roboto")url("https://fonts.googleapis.com/css?family=Crimson+Pro");
 
 body {background-color: white;
 
@@ -10,7 +10,7 @@ h1, h2 {color: red;
 }
 
 p {color: black;
-	font-family: "Roboto Slab", serif;
+	font-family: "Crimson Pro", serif;
 	font-size: 150%;
 
 }
