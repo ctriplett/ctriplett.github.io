@@ -41,14 +41,13 @@ p {
 	font-family: "roboto", sans-serif;
 	font-size: 1em;
 	font-style: bold;
-
 }
 
 .search-box {
-	width: 600px;
+	width: 800px;
 	display: block;
 	float: left;
-	margin: 125px;
+	margin: 70px;
   }
   
   input#search-bar{
