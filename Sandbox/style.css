@@ -14,7 +14,7 @@ h1 {
 	color: red;
 	font-family: "Bitter", serif;
 	font-size: 5em;
-	font-weight: 600;
+	font-weight: 500;
 
 }
 
@@ -23,45 +23,23 @@ h2, th {
 	font-family: "Roboto", sans-serif;
 	font-size: 2em;
 	font-weight: 500;
-	padding-top: 1.5em;
-	padding-bottom: 1em;
 }
 
 p {
 	color: black;
 	font-family: "Libre Baskerville", serif;
 	font-size: 1.5em;
+	width: 100%;
+
 }
 
-p.author {font-family: "Roboto", sans-serif;
-	font-size: 1em; 
-	font-weight: 600;
-	padding-left: 10px;
-	padding-bottom: 10px;
-}
-
-p.title {font-family: "Roboto", sans-serif;
-	font-size: 1em;
-	font-style: italic;
-	font-weight: 600;
-	padding-left: 10px;
-    padding-bottom: 20px;}
-
-p.description {font-family: "Libre Baskerville", serif;
-	font-size: 1em;
-	padding-left: 10px;
-	padding-right: 10px;
-	
-}
-
-p.tagline {
+tagline {
 	color: black;
 	font-family: "Roboto", sans-serif;
 	font-size: 2em;
 	font-style: italic;
 	margin-bottom: 1em;
 }
-
 nav {
 	color: black;
 	font-family: "roboto", sans-serif;
@@ -70,20 +48,21 @@ nav {
 	margin-bottom: 1em;
 }
 
-.search-container{
-	width:100%;
+.search-box {
+	width: 100%;
 	display: block;
-	margin: 0 auto;
-	padding-top:50px;
+	margin: auto;
+	margin-top: 2em;
+	margin-bottom: 4em;
   }
   
   input#search-bar{
 	margin: 0 auto;
-	width: 100%;
+	width:100%;
 	height: 45px;
 	padding: 0 20px;
 	font-size: 1rem;
-	border: 1px solid red;
+	border: 1px solid #D0CFCE;
 	outline: none;
 	&:focus{
 	  border: 1px solid #008ABF;
@@ -109,33 +88,62 @@ nav {
 	float: right;
 	width: 75px;
 	height: 75px;
-	top: -60px;
-	
+	top: -62px;
+	right: -45px;
   }
-
-table {
-	border: 1px solid red;
-	background-color: white;
-	width: 100%;
-	padding:0;
-}
-
-td {width: 25%;
- text-align: left;
- padding-top: 20px;
- padding-bottom: 20px;
- 
-}
-
-
-
+  .section-product {
+	  margin: auto;
+  }
   
-IMG.displayed {
-    display: block;
-    margin-left: auto;
-	margin-right: auto;
-width:75%
+  .product-new {
+	  position:relative;
+	  float:right;
+	  background-color: white;
+	  width: 20%;
+	  height: 350px;
+	  border: .5px solid red;
+	  padding: 20px 20px;
+  }
+  .product-image {
+	  text-align: center;
+  }
+ 
+  .img-product {
+	width: 50%;
+  }
+  .product-author {
+	font-family: "Roboto", sans-serif;
+	font-size: 1em; 
+	font-weight: 600;
+	text-align: left;
+	padding-top: 20px;
+	padding-left: 20px;
+  }
+  .product-title {
+	  font-family: "Roboto", sans-serif;
+	  font-size: 1em;
+	  font-style: italic;
+	  font-weight: 600;
+	  text-align: left;
+	  padding-left: 20px;
+  }
+  .product-description {
+	font-family: "Libre Baskerville", serif;
+	  font-size: 1em;
+	  text-align: left;
+	  padding-top:10px;
+	  padding-left: 20px;
+  }
+ .product-more {
+	font-family: "Libre Baskerville", serif;
+	font-size: 1.5em;
+	font-variant: small-caps;
+	text-align: right;
+	padding-top:10px;
+ }
 
-}
-
-
+ td {font-family: "Libre Baskerville", serif;
+	font-size: 1em;
+	text-align: left;
+	
+ }
