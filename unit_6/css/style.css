@@ -32,13 +32,15 @@ p {
 	color: black;
 	font-family: "Libre Baskerville", serif;
 	font-size: 1.5em;
+	margin-bottom: 1em;
 }
 
 p.author {font-family: "Roboto", sans-serif;
 	font-size: 1em; 
 	font-weight: 600;
+	padding-top: 20px;
 	padding-left: 10px;
-	padding-bottom: 10px;
+	padding-bottom: 0px;
 }
 
 p.title {font-family: "Roboto", sans-serif;
@@ -46,7 +48,7 @@ p.title {font-family: "Roboto", sans-serif;
 	font-style: italic;
 	font-weight: 600;
 	padding-left: 10px;
-    padding-bottom: 20px;}
+    padding-bottom: 0px;}
 
 p.description {font-family: "Libre Baskerville", serif;
 	font-size: 1em;
@@ -58,9 +60,10 @@ p.description {font-family: "Libre Baskerville", serif;
 p.tagline {
 	color: black;
 	font-family: "Roboto", sans-serif;
-	font-size: 2em;
+	font-size: 1.5em;
 	font-style: italic;
-	margin-bottom: 1em;
+	margin-top: 1em;
+	margin-bottom: 2em;
 }
 
 a:link {
@@ -74,19 +77,25 @@ color: red
 
 nav {
 	color: black;
+	display: inline-block;
 	width: 100%;
 	font-family: "roboto", sans-serif;
-	font-size: 1.5em;
+	font-size: 2em;
 	font-style: bold;
 	text-decoration: none;
-	margin-bottom: 1em;
+	margin-bottom: 1.5em;
+}
+
+a.nav {
+	padding-right: 20px;
+	text-decoration: underline red;
 }
 
 .search-container{
 	width:100%;
 	display: block;
 	margin: 0 auto;
-	padding-top:50px;
+	padding-top:30px;
   }
   
   input#search-bar{
