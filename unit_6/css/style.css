@@ -135,7 +135,8 @@ a.nav {
   }
 
 .product {
-	display: inline-block;
+	display: block;
+	float: right;
 	margin-right: -4px;
 	width: 25%;
 	background-color: white;
