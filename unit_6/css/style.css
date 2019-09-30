@@ -7,8 +7,8 @@
 body {
 	background-color: whitesmoke;
 	font-size: 16px;
-	width: 100%;
-	margin: 20% auto;
+	width: 90%;
+	margin: 0 5% 0 5%;
 	}
 
 h1 {
@@ -39,7 +39,8 @@ p.author {font-family: "Roboto", sans-serif;
 	font-size: 1em; 
 	font-weight: 600;
 	padding-top: 20px;
-	padding-left: 10px;
+	padding-left: 5%;
+	padding-right: 5%;
 	padding-bottom: 0px;
 }
 
@@ -47,13 +48,14 @@ p.title {font-family: "Roboto", sans-serif;
 	font-size: 1em;
 	font-style: italic;
 	font-weight: 600;
-	padding-left: 10px;
+	padding-left: 5%;
+	padding-right: 5%;
     padding-bottom: 0px;}
 
 p.description {font-family: "Libre Baskerville", serif;
 	font-size: 1em;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 5%;
+	padding-right: 5%;
 	
 }
 
@@ -142,7 +144,7 @@ a.nav {
 	background-color: white;
 	border: 1px solid red;
 	text-align: left;
-	padding-left: 10px;
+	padding-left: 10%;
 	padding-top: 20px;
 	padding-bottom: 20px;	
 }
