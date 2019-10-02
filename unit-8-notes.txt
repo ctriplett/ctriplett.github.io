@@ -1,0 +1,13 @@
+@media screen only and (min-width: 500px) {
+body {
+font-size: 12px;
+}
+
+In the example, we are telling the browser that's loading our page, “If the maximum width of the browser is larger than 500 pixels, change the font-size of the body to 12 pixels.”
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) { font-size: 14px; }
+
+For browser widths between 320px and 480px, load the font at 14px.
+
+Unit 8, quiz Q8: the class is ".articles", not ".article", so technically, none of the answers is correct.
