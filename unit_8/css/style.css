@@ -83,7 +83,7 @@ nav {
 	width: 100%;
 	font-family: "roboto", sans-serif;
 	font-size: 2em;
-	font-style: bold;
+	font-weight: 600;
 	text-decoration: none;
 	margin-bottom: 1.5em;
 }
@@ -91,6 +91,15 @@ nav {
 a.nav {
 	padding-right: 20px;
 	text-decoration: underline red;
+}
+
+@media only screen and (max-width: 1000px) {
+	body {
+		font-size: 16px;
+	}
+nav {
+	font-size: 1em;
+}
 }
 
 .search-container{
@@ -154,6 +163,8 @@ IMG.displayed {
     clear: both;
 	height: 0;
 }
+
+
 footer {
 	padding-top: 20px;
 }
