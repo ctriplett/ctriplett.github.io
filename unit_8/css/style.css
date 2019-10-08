@@ -7,8 +7,8 @@
 body {
 	background-color: whitesmoke;
 	font-size: 16px;
-	width: 90%;
-	margin: 0 5% 0 5%;
+	width: max-width: 1200px;
+	margin: 0 10% 0 10%;
 	}
 
 h1 {
@@ -19,7 +19,7 @@ h1 {
 
 }
 
-h2, th {
+h2 {
 	color: red;
 	font-family: "Roboto", sans-serif;
 	font-size: 2em;
@@ -108,24 +108,7 @@ a.nav {
 	font-size: 1rem;
 	border: 1px solid red;
 	outline: none;
-	&:focus{
-	  border: 1px solid #008ABF;
-	  transition: 0.35s ease;
-	  color: #008ABF;
-	  &::-webkit-input-placeholder{
-		transition: opacity 0.45s ease; 
-		  opacity: 0;
-	   }
-	  &::-moz-placeholder {
-		transition: opacity 0.45s ease; 
-		  opacity: 0;
-	   }
-	  &:-ms-placeholder {
-	   transition: opacity 0.45s ease; 
-		 opacity: 0;
-	   }    
-	 }
-   }
+	}
   
   .search-icon{
 	position: relative;
@@ -136,17 +119,22 @@ a.nav {
 	
   }
 
+  .product-container {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+  }
+
 .product {
-	display: block;
-	float: right;
-	margin-right: -4px;
-	width: 25%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 	background-color: white;
 	border: 1px solid red;
 	text-align: left;
-	padding-left: 10%;
 	padding-top: 20px;
-	padding-bottom: 20px;	
+		
 }
  
 IMG.displayed {
@@ -154,7 +142,7 @@ IMG.displayed {
     margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 20px;
-width:75%
+    max-width:80%
 
 }
 
@@ -165,4 +153,7 @@ width:75%
     content: " ";
     clear: both;
 	height: 0;
+}
+footer {
+	padding-top: 20px;
 }
