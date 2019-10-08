@@ -80,7 +80,7 @@ color: red
 nav {
 	color: black;
 	display: inline-block;
-	width: 100%;
+	max-width: 1200px;
 	font-family: "roboto", sans-serif;
 	font-size: 2em;
 	font-weight: 600;
@@ -93,12 +93,9 @@ a.nav {
 	text-decoration: underline red;
 }
 
-@media only screen and (max-width: 1000px) {
-	body {
-		font-size: 16px;
-	}
+@media (max-width: 1050px) {
 nav {
-	font-size: 1em;
+	font-size: 1.5em;
 }
 }
 
