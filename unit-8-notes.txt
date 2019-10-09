@@ -1,4 +1,4 @@
-@media screen only and (min-width: 500px) {
+﻿@media only screen and (min-width: 500px) {
 body {
 font-size: 12px;
 }
@@ -10,4 +10,23 @@ In the example, we are telling the browser that's loading our page, “If the ma
 
 For browser widths between 320px and 480px, load the font at 14px.
 
-Unit 8, quiz Q8: the class is ".articles", not ".article", so technically, none of the answers is correct.
+Unit 8, quiz Q8: the class is ".articles", not ".article", so technically, none of the answers are correct.
+
+https://ctriplett.github.io/unit_8/index.html
+
+.nav-narrow {
+        color: black;
+	display: inline-block;
+	max-width: 480px;
+	font-family: "roboto", sans-serif;
+	font-size: 1.5em;
+	font-weight: 600;
+	text-decoration: none;
+	margin-bottom: 1.5em;
+}
+
+
+ <a class=nav href="#">browse</a> 
+            <a class=nav href="#">catalog</a> 
+            <a class= nav href="#">news & events</a> 
+            <a class= nav href="#">contact us</a> 
